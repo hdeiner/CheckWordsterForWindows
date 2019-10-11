@@ -1,0 +1,16 @@
+{
+  "request" : {
+    "url" : "/checkWordster",
+    "method" : "POST",
+    "bodyPatterns" : [{
+      "equalToJson" : "{\"numberInDigits\": \"22,200,000\"}"
+    }]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "invokeCheckWordster-22200000.json",
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  }
+}

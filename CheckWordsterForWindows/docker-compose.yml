@@ -1,0 +1,15 @@
+version: "3.6"
+services:
+  wiremock:
+    image: rodolpheche/wiremock
+    container_name: wiremock
+    networks:
+      - compose-net
+    ports:
+      - "9999:8080"
+    volumes:
+      - ./wiremock:/home/wiremock
+    restart: always
+networks:
+  compose-net:
+    driver: bridge
