@@ -1,0 +1,2 @@
+msbuild
+vstest.console.exe CheckWordsterForWindows\bin\Debug\CheckWordsterForWindows.exe

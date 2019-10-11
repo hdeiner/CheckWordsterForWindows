@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2FDE859E-B8EC-448E-84E3-BD74B9A3241F}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		build_and_run_tests.cmd = build_and_run_tests.cmd
 	EndProjectSection
 EndProject
 Global
