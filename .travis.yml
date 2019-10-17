@@ -1,5 +1,8 @@
 os: windows
 language: csharp
+solution: CheckWordsterForWindows.sln
+install:
+  - nuget restore solution: CheckWordsterForWindows.sln
 services:
   - docker
 script:
