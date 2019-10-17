@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/hdeiner/CheckWordsterForWindows.svg?branch=master)](https://travis-ci.com/hdeiner/CheckWordsterForWindows)
-
 This project is about building microservices and properly testing them.
 
 - The microservice is a simple one: take a string of characters for money and translate them into the corresponding string of words that you would put on a check.
